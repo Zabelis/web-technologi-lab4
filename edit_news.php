@@ -195,6 +195,21 @@ button:hover {
     color: #000 !important;
 }
 
+.trumbowyg-editor h1 {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.trumbowyg-editor h2 {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.trumbowyg-editor h3 {
+    background: #fff !important;
+    color: #000 !important;
+}
+
 .notification {
     padding: 10px;
     margin-top: 10px;
