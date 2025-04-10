@@ -13,7 +13,7 @@ $news_query = "
     SELECT n.title, n.content, n.published_at, u.first_name, u.last_name
     FROM news n
     JOIN users u ON n.author_id = u.user_id
-    WHERE n.news_id = $news_id AND n.status_id = 1
+    WHERE n.news_id = $news_id AND n.status_id = 2
 ";
 $news_result = mysqli_query($conn, $news_query);
 
